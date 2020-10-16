@@ -1,0 +1,27 @@
+{
+    "given": {
+        "initial_velocity": -1.6,
+        "final_velocity": ,
+        "theta": 30,
+        "time": null,
+        "initial_x_position": 0,
+        "initial_y_position": 0,
+        "x_position": null,
+        "y_position": null,
+        "initial_x_velocity": null,
+        "initial_y_velocity": null,
+        "final_x_velocity": null,
+        "final_y_velocity": null,
+        "acceleration": null,
+        "radians": false
+    },
+    "solve": {
+        "max_height": true,
+        "time_in_air": true,
+        "x_displacement": true,
+        "y_displacement": true,
+        "acceleration": false,
+        "impact_velocity": false,
+        "will_trajectory_clear_object": false
+    }
+}
