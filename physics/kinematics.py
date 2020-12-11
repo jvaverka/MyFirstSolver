@@ -2,7 +2,7 @@
 # ><><><><>< kinematic solver ><><><><>< #
 # ###################################### #
 import argparse
-import definitions
+import physics.definitions
 import json
 import math
 from pathlib import Path
@@ -37,7 +37,7 @@ if __name__ == "__main__":
     print('''
     ...Initializing given conditions...
     ''')
-    env = definitions.Definitions(
+    env = physics.definitions.Definitions(
         v0=input['given']['initial_velocity'],
         vf=input['given']['final_velocity'],
         angle=input['given']['theta'],

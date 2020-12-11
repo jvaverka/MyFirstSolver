@@ -4,7 +4,7 @@
 import unittest
 from subprocess import check_output
 
-class TestStringMethods(unittest.TestCase):
+class TestCli(unittest.TestCase):
 
     def base_test(self):
         cmd = 'python3 src/kinematics.py -i util/base_test.json'.split()
