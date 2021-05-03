@@ -18,7 +18,7 @@ class TwoDKinematics:
         except Exception as e:
             print(e)
             return None
-        
+
     @staticmethod
     def velocity_with_no_acceleration(params) :
         # velocity_x_component = velocity_initial * cos(theta)
@@ -28,7 +28,7 @@ class TwoDKinematics:
         except Exception as e:
             print(e)
             return None
-    
+
     @staticmethod
     def displacement_with_non_constant_velocity(params) :
         # y_final_position = y_initial_position \
